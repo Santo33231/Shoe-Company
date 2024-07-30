@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+header {
+
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+.Shoe{
+    background-image: url('animated-shoe-image-0014.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 70%;
+    padding-top: 200px;
+    border-radius: 10px;
+    
+
+}
+.Shoe ul{
+   display: flex;
+   flex-direction: row;
+   gap: 7rem;
+
+}
+.Shoe ul li{
+    list-style: none;
+
+}
+img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h2{
+    padding-top: 70px;
+    text-align: center;
+    color: black;
+}
+.m{
+    
+    color: black;
+}
+
+.mai{
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+
+
+
+.m {
+    margin: 0; 
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+
+button {
+    padding: 10px 15px;
+    font-size: 14px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #007bff;
+    color: white; 
+    cursor: pointer; 
+}
+.a img {
+    width: 100%; 
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
+
+
+button:hover {
+    background-color: #0056b3; 
+}
+.lady{
+padding-top: 1px;
+
+}
+footer {
+    background-color: #282c34;
+    color: #ffffff; 
+    text-align: center;
+    padding: 1rem; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    font-size: 0.875rem; 
+    font-family: Arial, sans-serif; 
+}

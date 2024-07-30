@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    padding-bottom: 5px;
+    padding-left: 100px;
+    color: #fff;
+}
+h1{
+    padding-top: 40px;
+    padding-left: 100px;
+    color: #fff;
+
+}
+span{
+    color: red;
+}
+.main{
+   text-align: center; 
+   padding-top: 200PX;
+   color: white;
+   font-style: italic;
+   font-size: 30px;
+}
+button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 50px;
+    background: none;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 4px;
+    color: white;
+    border-style: ridge;
+    
+
+}
+button:hover{
+    width: 17%;
+    background-color: red;
+    transition: 3s;
+    cursor: pointer;
+
+}
+
+.navbar ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 3rem;
+    color: #fff;
+    padding-right: 20PX;
+    padding-top: 0px;
+
+
+    
+}
+.navbar ul li a{
+    color: #fff;
+
+}
+.navbar ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    cursor: pointer;
+    transition-behavior: 2s;
+    color: burlywood;
+}
+.Shoe{
+    background-image: url('animated-shoe-image-0014.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 70%;
+    padding-top: 200px;
+    border-radius: 10px;
+    
+
+}
+.Shoe ul{
+   display: flex;
+   flex-direction: row;
+   gap: 7rem;
+
+}
+.Shoe ul li{
+    list-style: none;
+
+}
+img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h2{
+    padding-top: 70px;
+    text-align: center;
+    color: black;
+}
+.m{
+    
+    color: black;
+}
+
+.mai{
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+
+
+
+.m {
+    margin: 0; 
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+
+button {
+    padding: 10px 15px;
+    font-size: 14px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #007bff;
+    color: white; 
+    cursor: pointer; 
+}
+a img {
+    width: 100%; 
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
+
+
+button:hover {
+    background-color: #0056b3; 
+}
+.lady{
+padding-top: 1px;
+
+}
+footer{
+    padding-top: 70px;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    padding-left: 400px;
+    gap: 6rem;
+    
+}
+footer ul{
+    list-style-type: none;
+    
+}
+h4{
+font-size: 30px;
+}
+
+.footer-1 {
+    height: 40px;
+    text-align: center;
+    padding: 10px 490px;
+    background: #333;
+    color: #fff;
+
+}
+
+.footer-1 p {
+    margin: 0;
+}
+
+
